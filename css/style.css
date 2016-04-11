@@ -1,0 +1,120 @@
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+}
+
+#myNavbar {
+    background: linear-gradient(to right, black, #080705, #13110c, #1f1b14, #302b1e, #393324, #302b1e, #1f1b14, #13110c, #080705, black);
+}
+
+.dropdown-toggle {
+    color: #fee3a2;
+}
+
+.caption-location {
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+.table2 {
+    color: white;
+    border: 0;
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-style:none;
+    border-top: 0px;
+    border-color: transparent;
+    text-align: justify;
+}
+
+.table {
+    color: white;
+    border: 0;
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-style:none;
+    border-top: 0px;
+    border-color: transparent;
+}
+
+tr {
+    border-style:none;
+    border-top: 0px;
+}
+
+td {
+    border-style:none;
+    border-top: 0px;
+}
+
+.parts {
+    width: 35%;
+}
+
+.spek {
+    width: 65%;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 3px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid transparent;
+}
+
+.table2>tbody>tr>td, .table2>tbody>tr>th, .table2>tfoot>tr>td, .table2>tfoot>tr>th, .table2>thead>tr>td, .table2>thead>tr>th {
+    padding: 20px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid transparent;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #ddd;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.formy {
+    color: black;
+    width: 80%;
+    height: 25px;
+}
+
+.carousel-caption {
+    color: white;
+    background: rgba(0,0,0,0.6);
+    right: 25%;
+    text-align: justify;
+    padding: 10px;
+    max-width: 350px;
+    left: auto;
+    /*top: auto;*/
+    /*position: relative;*/
+    top: 70%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: white;
+    text-decoration: none;
+}
