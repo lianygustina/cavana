@@ -1,4 +1,4 @@
-﻿/* You can alter this CSS in order to give Smooth Div Scroll your own look'n'feel */
+/* You can alter this CSS in order to give Smooth Div Scroll your own look'n'feel */
 
 /* Invisible left hotspot */
 div.scrollingHotSpotLeft
@@ -26,9 +26,9 @@ div.scrollingHotSpotLeftVisible
 	background-image: url(../images/arrow_left.gif);				
 	background-color: #fff;
 	background-repeat: no-repeat;
-	opacity: 0.35; /* Standard CSS3 opacity setting */
-	-moz-opacity: 0.35; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
-	filter: alpha(opacity = 35); /* Opacity for Internet Explorer. */
+	opacity: 0.1; /* Standard CSS3 opacity setting */
+	-moz-opacity: 0.1; /* Opacity for really old versions of Mozilla Firefox (0.9 or older) */
+	filter: alpha(opacity = 10); /* Opacity for Internet Explorer. */
 	zoom: 1; /* Trigger "hasLayout" in Internet Explorer 6 or older versions */
 }
 
@@ -53,9 +53,9 @@ div.scrollingHotSpotRightVisible
 	background-image: url(../images/arrow_right.gif);
 	background-color: #fff;
 	background-repeat: no-repeat;
-	opacity: 0.35;
-	filter: alpha(opacity = 35);
-	-moz-opacity: 0.35;
+	opacity: 0.1;
+	filter: alpha(opacity = 10);
+	-moz-opacity: 0.1;
 	zoom: 1;
 }
 
